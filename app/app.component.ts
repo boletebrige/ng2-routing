@@ -2,9 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  styles: [`
-    
-  `],
   templateUrl: './app/app.component.html',
   styleUrls: ['./app/app.component.css']
 })
