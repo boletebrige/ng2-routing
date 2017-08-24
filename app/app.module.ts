@@ -8,6 +8,7 @@ import { appRouting } from './app.routing';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   imports: [ 
@@ -19,7 +20,8 @@ import { HomeComponent } from './home/home.component';
     AppComponent ,
     AboutComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    NotFoundComponent
   ],
   bootstrap: [ AppComponent ]
 })
