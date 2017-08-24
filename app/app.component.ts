@@ -5,12 +5,8 @@ import { Component } from '@angular/core';
   styles: [`
     
   `],
-  template: `
-    <div class="jumbotron text-center">
-      <h1>The App Lives!</h1>
-      <p>{{ message }}</p>
-    </div>
-  `
+  templateUrl: './app/app.component.html',
+  styleUrls: ['./app/app.component.css']
 })
 export class AppComponent {
   message = 'This is the sample message.';
